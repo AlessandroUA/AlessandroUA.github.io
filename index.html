@@ -295,9 +295,21 @@
 
     footer {
       margin-top: 24px;
+      padding: 16px 0;
+      border-top: 1px solid rgba(148, 163, 184, 0.25);
       font-size: 0.78rem;
       color: var(--muted);
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .footer-handle {
+      font-weight: 600;
+      color: var(--accent);
     }
 
     footer a {
@@ -359,17 +371,67 @@
           <!-- Progetto 1 -->
           <article class="project-card">
             <div class="project-header">
-              <h3 class="project-title">Nome progetto 1</h3>
+              <h3 class="project-title">Progetto 1: Consegne Scolastiche</h3>
               <span class="project-badge">Open source</span>
             </div>
             <p class="project-desc">
-              Breve descrizione del progetto: cosa fa, perché l’hai creato e cosa ti interessa di più di questo lavoro.
+              Raccolta di esercizi e progetti scolastici per il corso di informatica. Include algoritmi, strutture dati e applicazioni pratiche.
             </p>
             <div class="project-meta">
               <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Algoritmi</span>
+                <span class="tag">Scolastico</span>
+              </div>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/Zuccante/4id-consegne-2025-2026-AlessandroUA.git" target="_blank" rel="noopener noreferrer">
+                  Codice <span>↗</span>
+                </a>
+                <a class="project-link secondary" href="#" target="_blank" rel="noopener noreferrer">
+                  Demo <span>▶</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <!-- Progetto 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Progetto 2: Web App Semplice</h3>
+              <span class="project-badge">Open source</span>
+            </div>
+            <p class="project-desc">
+              Una semplice applicazione web per gestire liste di cose da fare. Sperimentazione con HTML, CSS e JavaScript vanilla.
+            </p>
+            <div class="project-meta">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
                 <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a class="project-link" href="https://github.com/Zuccante/4id-consegne-2025-2026-AlessandroUA.git" target="_blank" rel="noopener noreferrer">
+                  Codice <span>↗</span>
+                </a>
+                <a class="project-link secondary" href="#" target="_blank" rel="noopener noreferrer">
+                  Demo <span>▶</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          <!-- Progetto 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Progetto 3: API REST</h3>
+              <span class="project-badge">Open source</span>
+            </div>
+            <p class="project-desc">
+              Implementazione di un'API REST per la gestione di risorse. Utilizzo di Node.js e Express per creare endpoint CRUD.
+            </p>
+            <div class="project-meta">
+              <div class="tags">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
                 <span class="tag">API</span>
-                <span class="tag">Frontend</span>
               </div>
               <div class="project-links">
                 <a class="project-link" href="https://github.com/Zuccante/4id-consegne-2025-2026-AlessandroUA.git" target="_blank" rel="noopener noreferrer">
@@ -386,8 +448,9 @@
     </main>
 
     <footer>
-      Ultimo aggiornamento: <span id="last-update">[metti una data]</span> ·
-      <a href="mailto:tuoindirizzo@email.com">Contattami</a>
+      <span class="footer-handle">@AlessandroUA</span> ·
+      <a href="mailto:tuoindirizzo@email.com">Contattami</a> ·
+      Ultimo aggiornamento: <span id="last-update">[metti una data]</span>
     </footer>
   </div>
 
